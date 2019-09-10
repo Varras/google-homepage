@@ -1,0 +1,15 @@
+body {
+    background: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    background-color: gainsboro;
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    color: #AAA;
+    padding: 20px;
+    margin: 50 px auto 0px auto;
+    width: 77%;
+}
