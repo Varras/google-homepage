@@ -6,7 +6,7 @@
   }
 body {
     background: #eeeeee;
-    font-family: 16px Arial, sans-serif;
+    font-family: 13px Arial, sans-serif;
 }
 
 ul {
@@ -14,11 +14,6 @@ ul {
     margin: 0;
     padding: 0;
   }
-
-li {
-    display: inline-block;
-    padding: 8px;
-    } 
 
 li a {
     display: block;
@@ -50,4 +45,15 @@ li a {
     padding: 20px;
     margin: 50px auto 0px auto;
     width: 77%;
+}
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.float-bleft {
+    float: left;
+}
+.float-bright {
+    float: right;
 }
