@@ -2,11 +2,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-size: 14px;
 
   }
-body {
-    background: white;
+header {
     font-family: 13px Arial, sans-serif;
 }
 
@@ -14,6 +12,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
   }
 
 li a {
@@ -22,6 +22,7 @@ li a {
     text-align: center;
     padding: 8px;
     text-decoration: none;
+    font-family: 13px Arial, sans-serif;
 }
 
 .float-left {
@@ -29,6 +30,10 @@ li a {
 }
 .float-right {
     float: right;
+}
+body {
+    background: white;
+    font-family: 13px Arial, sans-serif;
 }
 #logo {
     display: block;
@@ -83,7 +88,7 @@ button:hover {
     padding: 8px;
     text-decoration: none;  
 }
-footer {
+#ifooter {
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -98,21 +103,81 @@ footer {
 }
 
 /*--Results Specific Styles--*/
-#head{
-    padding-bottom: 20px;
-    border-bottom: 1px solid grey;
+#head {
+    padding: 8px;
+    border-bottom: 1px solid rgb(184, 183, 183);
+    box-shadow: 0px 0px 5px grey;
+}
+#Glogo {
+    margin-top: 10px;
+    margin-left: 10px; 
+}
+.RsearchBar {
+    background-color: white;
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 24px;
+    padding: 0px;
+    margin: 10px auto 10px 150px;
+    width: 25%;
+
+}
+.RsearchBar:hover {
+    box-shadow: 0px 0px 5px grey;
+}
+.RsearchBar #lens {
+    position: relative;
+    height: 30px;
+    top: 10px;
+}
+.Rsearch {
+    border: none;
+    background-color: transparent;
+    width: 85%;
+    height: 30px;
+    position: relative;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 h3 {
-    font-family: 18px Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
     text-decoration: none;
     text-align: left;
-    color: black;
-    padding: 8px;
+    color: #1a0dab;
+    padding: 4px;
+    display: block;
 }
 h4 {
-    font-family: 14px Arial, sans-serif;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
     text-decoration: none;
     text-align: left;
-    color: black;
+    color: #006621;
     padding: 4px;
+}
+.container {
+    display: grid;
+    grid-template-rows: repeat(4, 150px);
+    grid-template-columns: 150px 600px auto;
+}
+.item {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    margin: 10px;
+    max-height: 140px;
+    overflow: hidden;
+}
+.item a {
+    text-decoration: none;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 4px 0px;
+    color: #545454;
+}
+#rfooter {
+    background:  #f2f2f2;
+    margin-left: 150px;
 }
