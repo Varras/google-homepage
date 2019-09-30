@@ -96,3 +96,23 @@ footer {
 .float-bright {
     float: right;
 }
+
+/*--Results Specific Styles--*/
+#head{
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+h3 {
+    font-family: 18px Arial, sans-serif;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    padding: 8px;
+}
+h4 {
+    font-family: 14px Arial, sans-serif;
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    padding: 4px;
+}
